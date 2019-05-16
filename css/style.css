@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+}
+
+div.tooltip {	
+    position: absolute;
+    text-align: center;
+    width: 300;
+    height: 260px;
+    padding: 2px;
+    font: 12px sans-serif;	
+    border: 1px solid gray;	
+    border-radius: 20px;
+    pointer-events: none;
+    background: white;
+}
+
+select {
+    width: 75px;
+    height: 20px;
+}
+
+form {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 100px;
+    border-style: solid;
+    border-width: 0.5px;
+    border: 1px solid gray;	
+    border-radius: 5px;
+    font-size: 20px;
+    background: #eaf2f8;
+    padding: 5px;
+}
+
+label {
+    font-size: 18px;
+}
+
+g text {
+	font: 15px sans-serif;
+}
+
+.tick text {
+  font: 12px sans-serif;
+  color: darkslategray 
+}
+
+path, line {
+  color: darkslategray 
+}
